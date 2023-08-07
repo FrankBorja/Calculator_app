@@ -1,0 +1,22 @@
+{
+  "name": "proyecto",
+  "version": "1.0.1",
+  "description": "Este es una calculadora multi funcional para poder verificar varios conceptos de matematicas basica",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "Frank Borja",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}

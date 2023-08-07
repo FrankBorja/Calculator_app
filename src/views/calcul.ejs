@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="/calcul.css">
+    <title>
+        <%= title %>
+    </title>
+</head>
+
+<body>
+
+    <div class="returm">
+        <a href="/">
+            <button data-text="Awesome" class="button">
+                <span class="actual-text">&nbsp;regresar&nbsp;</span>
+                <span class="hover-text" aria-hidden="true">&nbsp;regresar&nbsp;</span>
+            </button>
+        </a>
+    </div>
+
+    <div class="container">
+
+        <header>
+            <div class="title">
+                <h1>Ejercicios Propuestos</h1>
+                <p>Multi Funcional</p>
+            </div>
+        </header>
+
+        <section class="section">
+
+            <%- include('partials/opc') %>
+
+
+        </section>
+    </div>
+
+    <script src=""></script>
+
+</body>
+</html>
